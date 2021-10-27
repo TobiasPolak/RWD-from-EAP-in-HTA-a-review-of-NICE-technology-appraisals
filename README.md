@@ -12,10 +12,10 @@ Code to accompany the paper 'Real-world data from expanded access programmes in 
     * tobias.polak@erasmusmc.nl
     * polak.tobias@gmail.com
 
-# Title: 	Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals.
+### Title: 	Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals.
 
-# Authors:
-#   Tobias B. Polak
+##### Authors:
+######   Tobias B. Polak
 #   David G.J. Cucchi
 #   Joost van Rosmalen
 #   Carin A. Uyl - De Groot

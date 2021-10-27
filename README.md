@@ -1,25 +1,25 @@
-# RWD-from-EAP-in-HTA-a-review-of-NICE-technology-appraisals
+# Expanded Access Programs in NICE Technology Appraisals
 Code to accompany the paper 'Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals'.
 
+### Authors
+* Tobias B. Polak
+* David G.J. Cucchi
+* Joost van Rosmalen
+* Carin A. Uyl - de Groot
 
-## Predictive performance of multinomial logistic prediction models
+### Title: 	Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals.
 * Author of this file and of the final version of the code: Tobias B. Polak
 * File last modified: December 2018
 * Code last modified: < April 2018
 * This is code for a study 'Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals'
 
+    
+# Citation
+If you use this code, please consider citing our paper.
+
 * For questions, email: 
     * tobias.polak@erasmusmc.nl
     * polak.tobias@gmail.com
-
-### Title: 	Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals.
-
-##### Authors:
-######   Tobias B. Polak
-#   David G.J. Cucchi
-#   Joost van Rosmalen
-#   Carin A. Uyl - De Groot
-
 
 ## How to...
 1. [Get started](#start)

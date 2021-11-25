@@ -24,11 +24,10 @@ for (TA in 1:length(cup_test$name)) {
       download.info$documents[TA] <- nrow
     }
     
-    mainDir <- "C:/Users/31612/Documents/R/ispor/"
-    subDir = paste0("DocumentedAppraisals/", cup_test$name[TA],"/")
+    mainDir <- "ENTER YOUR MAIN WORKING DIRECTORY"
+    subDir = paste0("SUBFOLDERNAME/", cup_test$name[TA],"/")
     dir.create(file.path(mainDir, subDir), showWarnings = FALSE)
     setwd(file.path(mainDir, subDir))
-    Sys.sleep(0.1)
     
     temp <- tempfile()
     

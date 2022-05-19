@@ -1,5 +1,5 @@
 # Expanded Access Programs in NICE Technology Appraisals
-Code to accompany the paper 'Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals', see: https://bmjopen.bmj.com/content/12/1/e052186.full. 
+Code to accompany the paper 'Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals', see: https://bmjopen.bmj.com/content/12/1/e052186.full. For more information. 
 
 Please consider citing our paper if you plan to use our code and/or data. We are happy to collaborate or answer any questions.
 

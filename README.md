@@ -18,7 +18,9 @@ The code available in the [Scripts](/Scripts) folder can be run sequentially to 
 
 For a detailed description of our methodology, we refer to the Methods section of our paper and the Workflow (A) that is depicted in the Supplementary Files. 
 
-## Detailed Information 
+## Note
+- Make sure you have internet connection while running the script as it installs packages from CRAN.
+- This script assumes that you have R and RStudio installed on your system.
 
 ### Authors
 - Tobias B. Polak <sup>1,2,3,4,*</sup>
@@ -38,7 +40,7 @@ For a detailed description of our methodology, we refer to the Methods section o
 
 <sup>*</sup> {Corresponding author: t.polak@erasmusmc.nl}
 
-## Grapical information
+## Graphical information
 1. First, we downloaded all publicly available information from the NICE websites. As you can see, the technology appraisals (or TAs) all have a similar structure: https://www.nice.org.uk/guidance/ta425. So https://www.nice.org.uk/guidance/ta + number. Not all numbers will lead to technology appraisals, some are withdrawn or cancelled, but this process works fairly well. Subsequently, we could download all the documents from these appraisals. We then searched for any terms related to expanded access, such as compassionate use, expanded access, early access, pre-approval access, named patient, managed access. single-patient access, single-patient IND, etc. An excellent paper on all the confusing terminology can be found [here](https://journals.sagepub.com/doi/10.1177/2168479017696267?icid=int.sj-abstract.similar-articles.5). This methodology is similar to our previous paper that can be found [here](https://github.com/TobiasPolak/BJCP2020)
 2. We then searched through all these documents whether any of these terms appeared, only manually going through the documents with an expanded access terms. This graphic depicts our process:
 ![](https://github.com/TobiasPolak/BJCP2020/blob/master/GIF1_Compressed%20(1).gif)

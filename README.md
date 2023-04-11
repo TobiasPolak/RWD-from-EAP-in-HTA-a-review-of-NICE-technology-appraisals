@@ -40,6 +40,11 @@ For a detailed description of our methodology, we refer to the Methods section o
 
 <sup>*</sup> {Corresponding author: t.polak@erasmusmc.nl}
 
+## Video
+We created a YouTube video to explain our research.  
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/23mHESNZnFQ/0.jpg)](http://www.youtube.com/watch?v=23mHESNZnFQ "BMJ Open 2021")
+
 ## Graphical information
 1. First, we downloaded all publicly available information from the NICE websites. As you can see, the technology appraisals (or TAs) all have a similar structure: https://www.nice.org.uk/guidance/ta425. So https://www.nice.org.uk/guidance/ta + number. Not all numbers will lead to technology appraisals, some are withdrawn or cancelled, but this process works fairly well. Subsequently, we could download all the documents from these appraisals. We then searched for any terms related to expanded access, such as compassionate use, expanded access, early access, pre-approval access, named patient, managed access. single-patient access, single-patient IND, etc. An excellent paper on all the confusing terminology can be found [here](https://journals.sagepub.com/doi/10.1177/2168479017696267?icid=int.sj-abstract.similar-articles.5). This methodology is similar to our previous paper that can be found [here](https://github.com/TobiasPolak/BJCP2020)
 2. We then searched through all these documents whether any of these terms appeared, only manually going through the documents with an expanded access terms. This graphic depicts our process:

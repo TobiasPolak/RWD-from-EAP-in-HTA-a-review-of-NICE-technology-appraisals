@@ -1,5 +1,5 @@
 # Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals
-This repository contains the source code and data for the paper 'Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals', that appeared in the British Medical Journal Open. The link to the paper can be found [here.](https://bmjopen.bmj.com/content/12/1/e052186.full.) 
+This repository contains the source code and data for the paper 'Real-world data from expanded access programmes in health technology assessments: a review of NICE technology appraisals', that appeared in the British Medical Journal Open. The link to the paper can be found [here.](https://bmjopen.bmj.com/content/12/1/e052186.full.). 
 
 
 ## Citation

@@ -1,11 +1,20 @@
 # Please make sure to run 01loadURL.r first.
 
 # Installing and loading packages
-packages <- list('tabulizer','installr', 'gsheet', 'pdftools', 'rvest', 'stringr', 'urltools',   'RCurl', 'stringr', 'readxl', 'stringr', 'dplyr')
+packages <- list('installr', 'gsheet', 'pdftools', 'rvest', 'stringr', 'urltools',   'RCurl', 'stringr', 'readxl', 'stringr', 'dplyr')
 lapply(packages, require, character.only = TRUE)
 
 # Create dataframe to store information of downloaded documents from URL.
-download.info <- as.data.frame(unlist(cup_test$name))
+TAs <- as.data.frame(paste0("TA", 750:855))
+colnames(TAs) <- 'TA'
+# Create a vector of values from HST17 to HST21
+HSTs <- as.data.frame(paste0("HST", 17:21))
+colnames(HSTs) <- 'TA'
+
+# Combine the vectors into a dataframe
+download.info <- rbind(TAs, HSTs)
+
+# download.info <- as.data.frame(unlist(cup_test$name))
 colnames(download.info) <- 'TA'
 download.info$error <- 0
 download.info$portfolio <- 0 
@@ -64,7 +73,7 @@ for (TA in 1:length(cup_test$name)) {
       next
     } else {}
     
-    if (temp == "For the best experience, open this PDF portfolio in\r\n      Acrobat 9 or Adobe Reader 9, or later.\r\n                Get Adobe Reader Now!\r\n") {
+    if (sum(grepl("For the best experience, open this PDF portfolio in\r\n      Acrobat 9 or Adobe Reader 9, or later.\r\n                Get Adobe Reader Now!\r\n", temp))>0) {
       TA.test$Portfolio[which(TA.test$TA == cup_test$name[[TA]])] <- 1
       print(url)
       print('portfolio')

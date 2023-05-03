@@ -33,7 +33,7 @@ folders.portfolio <- list.dirs('C:\\Users\\31612\\Documents\\R\\ispor\\Portfolie
 TA.portfolio <- sub(".*/", "", folders.portfolio)
 portfolio.file.names <- dir(folders.portfolio, pattern = ".pdf")
 
-folders <- list.dirs('C:\\Users\\31612\\Documents\\R\\ispor\\CombinedAppraisals', recursive = FALSE)
+folders <- list.dirs('C:\\Users\\31612\\Documents\\R\\ispor\\DocumentedAppraisals', recursive = FALSE)
 TA.list <- sub(".*/", "", folders)                    
 TA.info <- as.data.frame(cbind(TA.list, folders))
 TA.info$portfolio <- 0
@@ -119,4 +119,18 @@ info <- result_ordered_clean %>% group_by(TA) %>% dplyr::summarize(
 info_ordered <- info[order(info$count, decreasing = TRUE),]
 result_final <- setDT(result_ordered_clean)[, freq := .N, by = .(TA)][order(-freq)]
 result_final <- result_final[, -c('freq')]
+write.csv2(result_final, 'result_final.csv')
+
+terms_final <- result_final %>% group_by(TA) %>% summarise(
+  terms = n()
+)
+
+list_final <- left_join(TA.test, terms_final)
+list_final$`First Date` <- sub("^\\D+(\\d)", "\\1", list_final$`First Date`)
+list_final$`Last Date`<- sub("^\\D+(\\d)", "\\1", list_final$`Last Date`)
+list_final$year <- lubridate::dmy(list_final$`First Date`)
+list_final$year <- year(list_final$year)
+
+write.csv2(list_final, 'list_final.csv')
+
 

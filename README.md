@@ -48,9 +48,9 @@ We created a YouTube video to explain our research.
 ## Graphical information
 1. First, we downloaded all publicly available information from the NICE websites. As you can see, the technology appraisals (or TAs) all have a similar structure: https://www.nice.org.uk/guidance/ta425. So https://www.nice.org.uk/guidance/ta + number. Not all numbers will lead to technology appraisals, some are withdrawn or cancelled, but this process works fairly well. Subsequently, we could download all the documents from these appraisals. We then searched for any terms related to expanded access, such as compassionate use, expanded access, early access, pre-approval access, named patient, managed access. single-patient access, single-patient IND, etc. An excellent paper on all the confusing terminology can be found [here](https://journals.sagepub.com/doi/10.1177/2168479017696267?icid=int.sj-abstract.similar-articles.5). This methodology is similar to our previous paper that can be found [here](https://github.com/TobiasPolak/BJCP2020)
 2. We then searched through all these documents whether any of these terms appeared, only manually going through the documents with an expanded access terms. This graphic depicts our process:
-![](https://github.com/TobiasPolak/BJCP2020/blob/master/GIF1_Compressed%20(1).gif)
+![](https://github.com/TobiasPolak/RWD-from-EAP-in-HTA-a-review-of-NICE-technology-appraisals/blob/main/Animations/GIF1_Compressed%20(1).gif)
 3. Now, we only had to look through the documents that contain an expanded access term:
-![](https://github.com/TobiasPolak/BJCP2020/blob/master/GIF2_Loop_Compressed%20(1).gif)
+![](https://github.com/TobiasPolak/RWD-from-EAP-in-HTA-a-review-of-NICE-technology-appraisals/blob/main/Animations/GIF2_Loop_Compressed%20(1).gif)
 4. We could now finally divide our work into expanded access use for (i) safety (ii) efficacy (iii) resource use (e.g. any cost-related factors) or (iv) trivial: no relevant use of expanded access or a random term popping up.  
 ![](https://github.com/TobiasPolak/RWD-from-EAP-in-HTA-a-review-of-NICE-technology-appraisals/blob/main/Animations/GIF3_Compressed%20(1).gif)
 

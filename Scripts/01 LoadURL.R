@@ -19,11 +19,11 @@ packages <-
 lapply(packages, require, character.only = TRUE)
 
 # Specify first TA, last TA, first HST and last HST
-first.TA.test <- 185
-last.TA.test <- 667
-first.HST.test <- 1
-last.HST.test <- 13
-
+first.TA.test <- 750 #185
+last.TA.test <- 855 #667
+first.HST.test <- 17 #1
+last.HST.test <- 21 # 12
+ 
 # Create dataframe to store TA, URL, Title, Publication dates, number of documents, number of pages within documents, whether or not contains a portfolio PDF.
 nrow = length(first.TA.test:last.TA.test) + length(first.HST.test:last.HST.test)
 TA.test <- as.data.frame(matrix(0, ncol = 8, nrow = nrow))
@@ -68,6 +68,9 @@ for (i in 1:length(TA.test$TA)) {
     str_c("https://www.nice.org.uk", .) # append the original URL again
   
   pdf_list <- vector()
+  if (length(raw_list)==0){
+    next
+  }
   for (url in 1:length(raw_list)) {
     headers <- curlGetHeaders(raw_list[url])
     ct <-

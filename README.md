@@ -63,3 +63,5 @@ Tobias Polak is a member of the NYU Grossmann School of Medicine Ethics and Real
 ## Funding
 This research was supported via an unrestricted grant from HealthHolland: EMCLSH20012. HealthHolland is a funding vehicle for the Dutch Ministry of Economic Affairs and Climate Policy that addresses the Dutch Life Sciences & Health sector.
 
+## Acknowledgements
+We would like to express our gratitude to Rebeca Domínguez for helping with the animations.

@@ -55,7 +55,8 @@ We created a YouTube video to explain our research.
 ![](https://github.com/TobiasPolak/RWD-from-EAP-in-HTA-a-review-of-NICE-technology-appraisals/blob/main/Animations/GIF3_Compressed%20(1).gif)
 
 ## Results
-Now that we have shown you our methodology, please read the paper to find out the results!
+Now that we have shown you our methodology, please read the paper to find out the results! We have updated (per 2023) the results. These are not peer-reviewed but are depicted in the animation below. 
+![](https://github.com/TobiasPolak/RWD-from-EAP-in-HTA-a-review-of-NICE-technology-appraisals/blob/main/Animations/BarChart3.gif
 
 ## Competing Interests
 Tobias Polak is a member of the NYU Grossmann School of Medicine Ethics and Real-World Evidence (ERWE) Working Group. Tobias Polak works part-time for expanded access service provider myTomorrows, in which he holds stock and stock options (< 0.01%). He is contractually free to publish and the service provider is not involved in any of his past or ongoing research, nor in this work. Tobias Polak receives research support from the Dutch Ministry of Economic Affairs and Climate Policy (HealthHolland). Tobias Polak has received a Prins Bernhard Cultuurfonds Prijs for travel expenses to New York City. Joost van Rosmalen and David Cucchi declare no conflict of interest. Carin Uyl-de Groot has received unrestricted grants from Boehringer Ingelheim, Astellas, Celgene, Sanofi, Janssen-Cilag, Bayer, Amgen, Genzyme, Merck, Glycostem Therapeutics, Astra Zeneca, Roche and Merck.
@@ -63,3 +64,5 @@ Tobias Polak is a member of the NYU Grossmann School of Medicine Ethics and Real
 ## Funding
 This research was supported via an unrestricted grant from HealthHolland: EMCLSH20012. HealthHolland is a funding vehicle for the Dutch Ministry of Economic Affairs and Climate Policy that addresses the Dutch Life Sciences & Health sector.
 
+## Acknowledgements
+We would like to express our gratitude to Rebeca Domínguez for helping with the animations.

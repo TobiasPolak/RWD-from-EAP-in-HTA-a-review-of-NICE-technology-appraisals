@@ -9,6 +9,9 @@ Please cite this work as: Polak TB, Cucchi DG, van Rosmalen J, et al. Real-world
 * For questions, email: 
     * tobias.polak@erasmusmc.nl
     * polak.tobias@gmail.com
+ 
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. 
+To view a copy of this license, visit <http://creativecommons.org/licenses/by-nc/4.0/> or view the LICENSE file.
 
 ## How to run the code
 The code available in the [Scripts](/Scripts) folder can be run sequentially to reproduce the analysis.
